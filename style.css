@@ -25,6 +25,14 @@ h2 {
   border-radius: 10px;
   box-shadow: 3px 10px 20px rgba(0, 0, 0, 0.688);
 }
+@media (max-width: 410px) {
+    .calculadora {
+      width: 85%;
+    }
+    .display {
+      width: 85%;
+    }
+}
 .display {
   width: 100%;
   display: flex;
